@@ -13,7 +13,7 @@ const user = new User();
 // Product instance
 const product = new Product();
 // ^/$|/jtbookstore
-route.get('^/$|/jtbookstore', (req, res)=>{
+route.get('^/$|/jBrogans appstore', (req, res)=>{
     res.status(200).sendFile(path.join(__dirname, '../view/index.html'));
 })
 // =========USER's Router========
